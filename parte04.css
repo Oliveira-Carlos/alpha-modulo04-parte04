@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#solid{
+    width: 900px;
+    height: 300px;
+    border-radius: 50px;
+    border-style: dotted;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: rgb(0, 162, 65);
+}
+#transparente{
+    width: 900px;
+    height: 300px;
+    border-width: 20px;
+    border-color: yellow;
+    border-style: double;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: transparent
+}
+#gradiente{
+    width: 900px;
+    height: 300px;
+    border-width: 20px;
+    border-style: dashed;
+    margin: 10px auto;
+    padding: 2px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo,violet);
+}
+#imgunica{
+    width: 900px;
+    height: 300px;
+    border: solid 1px black;
+    margin: 10px auto;
+    padding: 2px;
+    background-image: url(./img-carlos.jpeg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+#imgrepetida{
+    width: 900px;
+    height: 300px;
+    border: solid 1px black;
+    margin: 10px auto;
+    padding: 2px;
+    background-image: url(./img-carlos.jpeg);
+    background-size: 50px;
+    background-repeat: repeat;
+}
+#imgq3{
+    width: 300px;
+    height: 300px;
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px black;
+}
